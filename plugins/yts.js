@@ -1,3 +1,4 @@
+// 𝔖𝔦𝔪𝔭𝔩𝔢 𝔖𝔞𝔭𝔦𝔱𝔬 𝔅𝔬𝔱   🇸 🇳 🇹 
 let yts = require('yt-search')
 let handler = async (m, { text }) => {
 if (!text) return m.reply('Cari apa?')
@@ -6,8 +7,8 @@ let teks = results.all.map(v => {
 switch (v.type) {
 case 'video': return `
 📌 *${v.title}* (${v.url})
-⌚ 𝙳𝚞𝚛𝚊𝚌𝚒𝚘𝚗: ${v.timestamp}
-⏲️ 𝙿𝚞𝚋𝚕𝚒𝚌𝚊𝚍𝚘 ${v.ago}
+⌚ 𝒅𝒖𝒓𝒂𝒄𝒊𝒐𝒏: ${v.timestamp}
+⏲️ 𝒑𝒖𝒃𝒍𝒊𝒄𝒂𝒅𝒐 ${v.ago}
 `.trim()
 case 'channel': return `
 📌 *${v.name}* (${v.url})
