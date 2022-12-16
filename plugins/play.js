@@ -6,7 +6,7 @@ let fetch = require('node-fetch')
 const { servers, yta, ytv } = require('../lib/y2mate')
 let handler = async(m, { conn, command, text, isPrems, isOwner, DevMode, args, usedPrexi }) => {
 conn.play = conn.play ? conn.play : {}
-if (!text) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*#play Good Feeling - Flo Rida*'
+if (!text) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝑵𝒐𝒎𝒃𝒓𝒆 𝒅𝒆 𝒍𝒂 𝒄𝒂𝒏𝒄𝒊𝒐𝒏 𝒇𝒂𝒍𝒕𝒂𝒏𝒕𝒆, 𝑷𝒐𝒓 𝒇𝒂𝒗𝒐𝒓 𝒊𝒏𝒈𝒓𝒆𝒔𝒆 𝒆𝒍 𝒄𝒐𝒎𝒂𝒏𝒅𝒐 𝒎𝒂𝒔 𝒆𝒍 𝒏𝒐𝒎𝒃𝒓𝒆/𝑻𝒊𝒕𝒖𝒍𝒐 𝒅𝒆 𝒖𝒏𝒂 𝒄𝒂𝒏𝒄𝒊𝒐𝒏*\n\n*—◉ 𝒆𝒋𝒆𝒎𝒑𝒍𝒐:*\n*#play Los meketrefes hoy te vi*'
 try {
 let results = await yts(text)
 let vid = results.all.find(video => video.seconds < 3600)
