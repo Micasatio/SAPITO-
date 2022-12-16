@@ -13,20 +13,20 @@ let vid = results.all.find(video => video.seconds < 3600)
 let { dl_link, thumb, title, filesize, filesizeF } = await (/2$/.test(command) ? ytv : yta)(vid.url, 'id4')
 let shortUrl = await (await fetch(`https://tinyurl.com/api-create.php?url=${dl_link}`)).text()
 conn.sendFile(m.chat, thumb, 'error.jpg', `
-📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}
-*📁 𝙿𝙴𝚂𝙾:* ${filesizeF}
-*🔗 𝚄𝚁𝙻:* ${vid.url}
-*📥 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁:* ${shortUrl}
+📌 *𝑇𝑖𝑡𝑢𝑙𝑜:* ${title}
+*📁 𝑃𝑒𝑠𝑜:* ${filesizeF}
+*🔗 𝑈𝑅𝐿:* ${vid.url}
+*📥 𝐷𝑒𝑠𝑐𝑎𝑟𝑔𝑎𝑟:* ${shortUrl}
 `.trim(), m, false, { 
 contextInfo: { externalAdReply: {
 title: 'ʀᴇᴘʀᴏᴅᴜᴄᴛᴏʀ ᴅᴇ ʏᴏᴜᴛᴜʙᴇ',
-body: '©𝑆𝑖𝑚𝑝𝑙𝑒𝐵𝑜𝑡', 
+body: '©𝑆𝑎𝑝𝑖𝑡𝑜𝑏𝑜𝑡', 
 sourceUrl: `https://github.com/BrunoSobrino/SimpleBot`, 
 thumbnail: fs.readFileSync('./Menu2.jpg') }}})
 conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(command)), `
-*📌 𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}
-*📁 𝙿𝙴𝚂𝙾:* ${filesizeF}
-*🔗 𝚄𝚁𝙻:* ${vid.url}
+*📌 𝑇𝑖𝑡𝑢𝑙𝑜:* ${title}
+*📁 𝑃𝑒𝑠𝑜:* ${filesizeF}
+*🔗 𝑈𝑅𝐿:* ${vid.url}
 `.trim(), m)
 } catch {
 try {
