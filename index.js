@@ -1,4 +1,4 @@
-console.log('✅ㅤIniciando...')
+console.log('꧁𝐼𝑛𝑖𝑐𝑖𝑎𝑛𝑑𝑜 𝑺𝒊𝒎𝒑𝒍𝒆 𝑺𝒂𝒑𝒊𝒕𝒐 𝑩𝒐𝒕꧂')
 
 let cluster = require('cluster')
 let path = require('path')
