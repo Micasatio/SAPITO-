@@ -1,10 +1,11 @@
 # 𝕾𝖆𝖕𝖎𝖙𝖔_𝕭𝖔𝖙
+𝘽𝙤𝙩 𝙪𝙣𝙞𝙘𝙚𝙣𝙩𝙚 𝙙𝙚 𝙙𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙨
 
 ### `—◉ 👑 🅓︎🅤︎🅓︎🅐︎🅢︎ 🅢︎🅞︎🅑︎🅡︎🅔︎ 🅔︎🅛︎ 🅑︎🅞︎🅣︎?, 🅒︎🅞︎🅝︎🅣︎🅐︎🅒︎🅣︎🅐︎🅜︎🅔︎ 👑`
 <a href="http://wa.me/595983186566" target="blank"><img src="https://img.shields.io/badge/S͜͡N͜͡T͜͡-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 > NO BOT
 
-https://github.com/Micasatio/SAPITO-/edit/master/README.md
+
 ### `—◉ 𖠌 🄰🄹🅄🅂🅃🄴🅂 𖠌`
 - CLONAR EL REPOSITORIO [Aqui](https://github.com/Micasatio/SAPITO-/fork)
 - CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/Micasatio/SAPITO-/blob/master/config.js)
