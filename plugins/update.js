@@ -1,3 +1,4 @@
+// 𝔖𝔦𝔪𝔭𝔩𝔢 𝔖𝔞𝔭𝔦𝔱𝔬 𝔅𝔬𝔱 🄱🅈 🇸 🇳 🇹 
 let { execSync } = require('child_process')
 let handler = async (m, { conn, text }) => {
 if (global.conn.user.jid == conn.user.jid) {
