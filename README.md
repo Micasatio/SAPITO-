@@ -1,34 +1,18 @@
-# `💫 𝑆𝐼𝑀𝑃𝐿𝐸 - 𝐵𝑂𝑇 💫`
+# 𝕾𝖆𝖕𝖎𝖙𝖔_𝕭𝖔𝖙
 
-### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
-<a href="http://wa.me/5219992095479" target="blank"><img src="https://img.shields.io/badge/BRUNO_SOBRINO-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+### `—◉ 👑 🅓︎🅤︎🅓︎🅐︎🅢︎ 🅢︎🅞︎🅑︎🅡︎🅔︎ 🅔︎🅛︎ 🅑︎🅞︎🅣︎?, 🅒︎🅞︎🅝︎🅣︎🅐︎🅒︎🅣︎🅐︎🅜︎🅔︎ 👑`
+<a href="http://wa.me/595983186566" target="blank"><img src="https://img.shields.io/badge/S͜͡N͜͡T͜͡-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 > NO BOT
 
-### `—◉ 💰 DONAR 💰`
-- AGRADECE CON UNA DONACION VOLUNTARIA [Aqui](https://www.paypal.me/TheShadowBrokers133)
+https://github.com/Micasatio/SAPITO-/edit/master/README.md
+### `—◉ 𖠌 🄰🄹🅄🅂🅃🄴🅂 𖠌`
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/Micasatio/SAPITO-/fork)
+- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/Micasatio/SAPITO-/blob/master/config.js)
 
-### `—◉ ⚙️ AJUSTES ⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/BrunoSobrino/SimpleBot/fork)
-- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/BrunoSobrino/SimpleBot/blob/master/config.js)
 
-### `—◉ 💥 ACTIVAR EN ACIDICNODES 💥`
-<a href="https://billing.acidicnodes.com"><img src="https://billing.acidicnodes.ml/storage/icon.png" width="200" height="200" alt="AcidicNodes"/></a>
-- TUTORIAL: [https://youtu.be/nbjvreJ0tUk](https://youtu.be/nbjvreJ0tUk)
-- PAGINA: [https://billing.acidicnodes.com](https://billing.acidicnodes.com)
-- SOPORTE: [https://whatsapp.acidicnodes.com](https://whatsapp.acidicnodes.com)
-
-### `—◉ ✨ ACTIVAR EN HEROKU ✨`
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BrunoSobrino/SimpleBot)
+### `—◉ 𖨆𝔸𝕔𝕥𝕚𝕧𝕒𝕣 𝔼𝕟 𝕋𝕖𝕣𝕞𝕦𝕩 𖨆`
 ```bash
-AÑADE AL APARTADO DE BUILPACK LO SIGUIENTE, SI YA APARCEN SOLO IGNORA ESTA PARTE:
-> heroku/nodejs
-> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
-> https://github.com/bogini/heroku-buildpack-graphicsmagick
-```
-
-### `—◉ 👾 ACTIVAR EN TERMUX 👾`
-```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+e͜͡s͜͡c͜͡r͜͡i͜͡b͜͡e͜͡ l͜͡o͜͡s͜͡ s͜͡i͜͡g͜͡u͜͡i͜͡e͜͡n͜͡t͜͡e͜͡s͜͡ c͜͡o͜͡m͜͡a͜͡n͜͡d͜͡o͜͡s͜͡ u͜͡n͜͡o͜͡ p͜͡o͜͡r͜͡ u͜͡n͜͡o͜͡:
 > cd
 > termux-setup-storage
 > apt update 
@@ -47,24 +31,24 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-### `—◉ ✔️ ACTIVAR EN CASO DE DETENERSE ✔️`
+### `—◉ ت︎ ᗩᑕTIᐯᗩᖇ ᗴᑎ ᑕᗩՏO ᗪᗴ ᗪᗴTᗴᑎᗴᖇՏᗴ ت︎`
 ```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+e͜͡s͜͡c͜͡r͜͡i͜͡b͜͡e͜͡ l͜͡o͜͡s͜͡ s͜͡i͜͡g͜͡u͜͡i͜͡e͜͡n͜͡t͜͡e͜͡s͜͡ c͜͡o͜͡m͜͡a͜͡n͜͡d͜͡o͜͡s͜͡ u͜͡n͜͡o͜͡ p͜͡o͜͡r͜͡ u͜͡n͜͡o͜͡:
 > cd 
 > cd SimpleBot
 > npm start
 ```
 
-### `—◉ 👽 OBTENER OTRO CODIGO QR 👽`
+### `—◉ ⍟ 𝙤𝙗𝙩𝙚𝙣𝙚𝙧 𝙤𝙩𝙧𝙤 𝙦𝙧`
 ```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+e͜͡s͜͡c͜͡r͜͡i͜͡b͜͡e͜͡ l͜͡o͜͡s͜͡ s͜͡i͜͡g͜͡u͜͡i͜͡e͜͡n͜͡t͜͡e͜͡s͜͡ c͜͡o͜͡m͜͡a͜͡n͜͡d͜͡o͜͡s͜͡ u͜͡n͜͡o͜͡ p͜͡o͜͡r͜͡ u͜͡n͜͡o͜͡:
 > cd 
 > cd SimpleBot
 > rm -rf session.data.json
 > npm start
 ```
 
-## `EDITOR Y PORPIETARIO DEL BOT` 
-<a href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="300" height="300" alt="BrunoSobrino"/></a>
+## ` ➪𝘌𝘥𝘪𝘵𝘰𝘳 𝘺 𝘱𝘳𝘰𝘱𝘪𝘦𝘵𝘢𝘳𝘪𝘰 𝘥𝘦𝘭 𝘣𝘰𝘵` 
+<a href="https://github.com/Micasatio"><img src="https://github.com/Micasatio.png" width="300" height="300" alt="Micasatio"/></a>
 
-`TheMystic-Bot-MD _ By Bruno Sobrino`
+`𝔖𝔞𝔭𝔦𝔱𝔬_𝔅𝔬𝔱 _ 𝖡𝗒 丂几ㄒ✞︎`
