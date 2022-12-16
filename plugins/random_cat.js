@@ -10,7 +10,7 @@ let caption = `
 conn.sendFile(m.chat, img, 'cat.jpg', caption, m)
 } catch (e) {
 console.log(e)
-throw '*[❗] 𝙴𝚁𝚁𝙾𝚁*'
+throw '*[❗] 𝐄𝐫𝐫𝐨𝐫*'
 }}
 handler.help = ['cat']
 handler.tags = ['general']
