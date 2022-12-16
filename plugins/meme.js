@@ -1,9 +1,10 @@
+// 𝔖𝔦𝔪𝔭𝔩𝔢 𝔖𝔞𝔭𝔦𝔱𝔬 𝔅𝔬𝔱   🇸 🇳 🇹
 let axios = require("axios")
 let handler = async (m, {command, conn}) => {
 let res = await axios(pickRandom(meme))
 let json = res.data
 let url = json.url
-conn.sendButtonImg(m.chat, url, `_${command}_`.trim(), author, '🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`, m)}
+conn.sendButtonImg(m.chat, url, `_${command}_`.trim(), author, '🐸 𝑀𝑎𝑠 𝑚𝑒𝑚𝑒𝑠 🐸', `/${command}`, m)}
 handler.command = /^(meme)$/i
 module.exports = handler
 
