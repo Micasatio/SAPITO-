@@ -5,12 +5,13 @@ let res = await fetch('https://random.dog/woof.json')
 let json = await res.json()
 if (json.status) throw json
 let caption = `
-*©𝑆𝑖𝑚𝑝𝑙𝑒𝐵𝑜𝑡*
+𝑈𝑛 𝑝𝑒𝑟𝑟𝑖𝑡𝑜𝑜 🐶
+*©𝑺𝒂𝒑𝒊𝒕𝒐𝑩𝒐𝒕*
 `.trim()
 conn.sendFile(m.chat, json.url, 'dog.jpg', caption, m)
 } catch (e) {
 console.log(e)
-throw '*[❗] 𝙴𝚁𝚁𝙾𝚁*'
+throw '*[❗] 𝑬𝒓𝒓𝒐𝒓*'
 }}
 handler.help = ['dog']
 handler.tags = ['general']
