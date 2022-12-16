@@ -2,7 +2,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 let fetch = require('node-fetch')
 let { youtubedl, youtubedlv2, youtubedlv3 } = require('@bochilteam/scraper')
 let handler = async (m, { conn, command, text, args }) => {
-if (!text) return m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 / 𝙻𝙸𝙽𝙺 𝙳𝙴 𝚄𝙽 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴*`)
+if (!text) return m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝚗𝚌𝚎𝚛𝚝𝚎 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚖𝚊𝚜 𝚎𝚗𝚕𝚊𝚌𝚎/ 𝙻𝚒𝚗𝚔 𝚍𝚎 𝚞𝚗 𝚟𝚒𝚍𝚎𝚘 𝚍𝚎 𝚈𝚘𝚞𝚝𝚞𝚋𝚎*`)
 try {
 let q = '128kbps'
 let v = args[0]
@@ -19,7 +19,7 @@ let res = await fetch(`https://latam-api.vercel.app/api/ytmp3_2?apikey=nekosmic&
 let json = await res.json()
 await conn.sendMessage(m.chat, { audio: { url: json.descarga }, mimetype: 'audio/mpeg', fileName: `${json.titulo}.mp3` }, { quoted: m })  
 } catch {
-m.reply(`*[❗] 𝙴𝚁𝚁𝙾𝚁 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙴𝙻 𝙰𝚄𝙳𝙸𝙾*`)
+m.reply(`*[❗] 𝑁𝑜 𝑝𝑢𝑑𝑒 𝑑𝑒𝑠𝑐𝑎𝑟𝑔𝑎𝑟 𝑒𝑙 𝑎𝑢𝑑𝑖𝑜 :(*`)
 }}}
 handler.command = /^(getaud|ytmp3.2|yta.2)$/i
 module.exports = handler
