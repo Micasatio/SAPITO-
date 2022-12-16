@@ -85,7 +85,7 @@ async function connectionUpdate(update) {
     global.timestamp.connect = new Date
   }
   if (global.db.data == null) loadDatabase()
-  if (connection == 'open') {console.log(chalk.yellow('▣─────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣─────────────────────────────···'))}
+  if (connection == 'open') {console.log(chalk.green('▣─────────────────────────────···\n│\n│❧ 𝑆𝑎𝑝𝑖𝑡𝑜 𝐵𝑜𝑡 𝑆𝑒 𝑐𝑜𝑛𝑒𝑐𝑡𝑜 𝑐𝑜𝑟𝑟𝑒𝑐𝑡𝑎𝑚𝑒𝑛𝑡𝑒 𝑎𝑙 𝑤ℎ𝑎𝑡𝑠𝑎𝑝𝑝 ✈︎\n│\n▣─────────────────────────────···'))}
 }
 
 process.on('uncaughtException', console.error)
@@ -131,8 +131,8 @@ global.reloadHandler = function (restatConn) {
 
   conn.welcome = '*╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\n*╟❧ @user*\n*╟❧ 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾/𝙰* \n*║*\n*╟❧ 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾:*\n*╟❧* @desc\n*║*\n*╟❧ 𝙳𝙸𝚂𝙵𝚁𝚄𝚃𝙰 𝚃𝚄 𝙴𝚂𝚃𝙰𝙳𝙸𝙰!!*\n*╚══════════════*'
   conn.bye = '*╔══════════════*\n*╟❧ @user*\n*╟❧ 𝙷𝙰𝚂𝚃𝙰 𝙿𝚁𝙾𝙽𝚃𝙾 👋🏻* \n*╚══════════════*'  
-  conn.spromote = '@user sekarang admin!'
-  conn.sdemote = '@user sekarang bukan admin!'
+  conn.spromote = '@user ᴇs ᴀᴅᴍɪɴ!'
+  conn.sdemote = '@user ʏᴀ ɴᴏ ᴇs ᴀᴅᴍɪɴ!'
   conn.handler = handler.handler.bind(conn)
   conn.participantsUpdate = handler.participantsUpdate.bind(conn)
   conn.connectionUpdate = connectionUpdate.bind(conn)
@@ -226,7 +226,7 @@ async function _quickTest() {
 }
 setInterval(async () => {
 var a = await clearTmp()
-console.log(chalk.cyanBright(`\n▣────────[ 𝙰𝚄𝚃𝙾𝙲𝙻𝙴𝙰𝚁𝚃𝙼𝙿 ]───────────···\n│\n▣─❧ 𝙰𝚁𝙲𝙷𝙸𝚅𝙾𝚂 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝙳𝙾𝚂 ✅\n│\n▣────────────────────────────────────···\n`))
+console.log(chalk.cyanBright(`\n▣────────[ 𝙰𝚄𝚃𝙾𝙲𝙻𝙴𝙰𝚁𝚃𝙼𝙿 ]───────────···\n│\n▣─❧ 𝐀𝐫𝐜𝐡𝐢𝐯𝐨𝐬 𝐛𝐚𝐬𝐮𝐫𝐚 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐝𝐨𝐬✅\n│\n▣────────────────────────────────────···\n`))
 }, 180000)
 _quickTest()
 .then(() => conn.logger.info('Ƈᴀʀɢᴀɴᴅᴏ．．．\n'))
