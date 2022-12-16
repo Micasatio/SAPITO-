@@ -2,13 +2,13 @@ let { promisify } = require('util')
 let _gis = require('g-i-s')
 let gis = promisify(_gis)
 let handler  = async (m, { conn, args, text }) => {
-if (!text) return m.reply('*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝚃𝙴𝚇𝚃𝙾 𝚀𝚄𝙴 𝚀𝚄𝙸𝙴𝚁𝙰 𝙱𝚄𝚂𝙲𝙰𝚁*')
+if (!text) return m.reply('*[❗] 𝐼𝑛𝑔𝑟𝑒𝑠𝑒 𝑒𝑙 𝑡𝑒𝑥𝑡𝑜 𝑞𝑢𝑒 𝑞𝑢𝑖𝑟𝑎 𝑏𝑢𝑠𝑐𝑎𝑙*')
 let results = await gis(text) || []
 let { url, width, height } = pickRandom(results) || {}
-if (!url) return m.reply('*[❗] 𝚂𝙴𝚁𝚅𝙸𝙳𝙾𝚁 𝙲𝙰𝙸𝙳𝙾, 𝙸𝙽𝚃𝙴𝙽𝚃𝙴 𝙼𝙰𝚂 𝚃𝙰𝚁𝙳𝙴*')
+if (!url) return m.reply('*[❗] 𝚂𝑒𝑟𝑣𝑖𝑑𝑜𝑟 𝑐𝑎𝑖𝑑𝑜*')
 conn.sendFile(m.chat, url, 'gimage', `
-🔎 *𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾 𝙳𝙴:* ${text}
-🌎 *𝙱𝚄𝙲𝙰𝙳𝙾𝚁:* Google
+🔎 *𝐴𝑞𝑢𝑖 𝑡𝑖𝑒𝑛𝑒𝑠 𝑒𝑙 𝑟𝑒𝑠𝑢𝑙𝑡𝑎𝑑𝑜 𝑑𝑒* ${text}
+🌎 *𝐵𝑢𝑠𝑐𝑎𝑑𝑜𝑟:* 𝐺𝑜𝑜𝑔𝑙𝑒
 `.trim(), m)}
 handler.help = ['gimage <query>', 'image <query>']
 handler.tags = ['general']
