@@ -1,3 +1,4 @@
+// 𝔖𝔦𝔪𝔭𝔩𝔢 𝔖𝔞𝔭𝔦𝔱𝔬 𝔅𝔬𝔱  🇸 🇳 🇹 
 const fs = require('fs')
 const path = require('path')
 const { exec } = require('child_process')
@@ -5,9 +6,9 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 try {
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || ''
-if (!/audio/.test(mime)) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰𝙻 𝙰𝚄𝙳𝙸𝙾 𝙾 𝙽𝙾𝚃𝙰 𝙳𝙴 𝚅𝙾𝚉 𝙴𝙻 𝙲𝚄𝙰𝙻 𝚂𝙴𝚁𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾, 𝚄𝚂𝙰𝙳𝙾 𝙴𝙻 𝙲𝙾𝙰𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command}*`
+if (!/audio/.test(mime)) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝑟𝑒𝑠𝑝𝑜𝑛𝑑𝑎 𝑎𝑙 𝑎𝑢𝑑𝑖𝑜 𝑜 𝑛𝑜𝑡𝑎 𝑑𝑒 𝑣𝑜𝑧 𝑒𝑛 𝑒𝑙 𝑐𝑢𝑎𝑙 𝑠𝑒𝑟𝑎 𝑚𝑜𝑑𝑖𝑓𝑖𝑐𝑎𝑑𝑜, 𝑢𝑠𝑎𝑛𝑑𝑜 𝑒𝑙 𝑐𝑜𝑚𝑎𝑛𝑑𝑜 ${usedPrefix + command}*`
 let audio = await q.download()
-if (!audio) throw '*[❗𝐈𝐍𝐅𝐎❗] ERROR*'
+if (!audio) throw '*[❗𝐈𝐍𝐅𝐎❗] 🄴🅁🅁🄾🅁*'
 let set
 if (/bass/.test(command)) set = '-af equalizer=f=94:width_type=o:width=2:g=30'
 if (/blown/.test(command)) set = '-af acrusher=.1:1:64:0:log'
